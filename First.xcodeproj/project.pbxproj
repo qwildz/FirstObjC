@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		75245C271C00D7C5007EA1FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75245C261C00D7C5007EA1FD /* main.m */; };
+		75245C2F1C00DB2F007EA1FD /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 75245C2E1C00DB2F007EA1FD /* Human.m */; };
+		75245C321C00E174007EA1FD /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75245C311C00E174007EA1FD /* Doctor.m */; };
+		75245C351C00E281007EA1FD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 75245C341C00E281007EA1FD /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		75245C231C00D7C4007EA1FD /* First */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = First; sourceTree = BUILT_PRODUCTS_DIR; };
 		75245C261C00D7C5007EA1FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75245C2D1C00D9E5007EA1FD /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		75245C2E1C00DB2F007EA1FD /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		75245C301C00E0A2007EA1FD /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		75245C311C00E174007EA1FD /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		75245C331C00E23E007EA1FD /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		75245C341C00E281007EA1FD /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				75245C261C00D7C5007EA1FD /* main.m */,
+				75245C2D1C00D9E5007EA1FD /* Human.h */,
+				75245C2E1C00DB2F007EA1FD /* Human.m */,
+				75245C301C00E0A2007EA1FD /* Doctor.h */,
+				75245C311C00E174007EA1FD /* Doctor.m */,
+				75245C331C00E23E007EA1FD /* Student.h */,
+				75245C341C00E281007EA1FD /* Student.m */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75245C271C00D7C5007EA1FD /* main.m in Sources */,
+				75245C2F1C00DB2F007EA1FD /* Human.m in Sources */,
+				75245C321C00E174007EA1FD /* Doctor.m in Sources */,
+				75245C351C00E281007EA1FD /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +225,7 @@
 		75245C2B1C00D7C6007EA1FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +233,7 @@
 		75245C2C1C00D7C6007EA1FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
